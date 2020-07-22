@@ -8,7 +8,7 @@ DoSelf proc
 	mov byte ptr modif+1, 0E8h	; ouii ==> transforme code machine : add en sub (= C0 ==> A8)
 	jmp modif
 LabelA8:	
-	mov byte ptr modif+1, 0C0h
+	mov byte ptr modif+1, 0C0h	; l'inverse A8 ==> C0
 
 modif:
 	add eax,11
