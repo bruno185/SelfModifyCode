@@ -20,8 +20,11 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="doSelfM.asm">
+    <MASM Include="doSelfM.asm">
       <Filter>Fichiers sources</Filter>
-    </None>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="asmFile64.obj" />
   </ItemGroup>
 </Project>
